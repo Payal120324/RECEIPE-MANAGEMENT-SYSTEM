@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Foodweb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>DISH DYNASTY</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+
+        <div class="login">
+            <h2>Log In </h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Password"> <br>
+            <button type="button">Log In</button>
+
+        </div>
+        <div class="nav">
+            <a href="FoodWeb.html">
+                <p>Home</p>
+            </a>
+           <a href="recipes.html">
+            <p>Foods</p>
+             </a>
+      
+            
+        </div>
+
+        <!-- main Page -->
+
+        <div class="main">
+            <div class="text">
+                <h1>Simple & Tasty Recipes</h1>
+                <p>Crispy Non Veg Patty enveloped in melted Cheese, fresh Iceberg Lettuce, Capsicum, Onions, Tomatos in our delicious dressing sauce, cushioned between soft buttered buns..</p>
+               <a  href="recipes.html"><button>Explore More</button></a>                                                      
+            </div>
+            <img src="C:\Users\Payal\Downloads\Louis Monstercheese Burger.webp" alt="">
+        </div>
+
+        <!--  Card Food -->
+
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>DISHES</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="C:\Users\Payal\Downloads\aquacotta-c0f6b2f.webp" alt="">
+                            <h2>Acquacotta</h2>
+                            <p>Acquacotta is a simple traditional dish originating in the coastal region of Italy known as Maremma, which spans the southern half of Tuscany's coast and runs into northern Lazio.The word acquacotta means 'cooked water' in the Italian language. It was originally a peasant food, and has been described as an ancient dish</p>
+                            <a href="acquacotta.html">  
+                                <button>see more</button>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <img src="C:\Users\Payal\Downloads\paneer-butter-masala-1.webp" alt="" height="300px" width="300px">
+                            <h2>Paneer makhanwala</h2>
+                            <p>This recipe of Paneer Makhanwala is a variation of Paneer Butter Masala, Paneer Lababdar and Paneer Makhani </p>
+                            <a href="paneermakhanwala.html">
+                                <button>see more</button></a>
+                        </div>
+                        <div class="card">
+                            <img src="C:\Users\Payal\Downloads\mango-mastani.webp" alt="" height="300px" width="300px">
+                            <h2>MANGO MASTANI</h2>
+                            <p> the Mango Mastani completely justifies its name. Because of its beauty, one of the things that anyone could do with it is 'eat it with their eyes' first! Summer is the time when you can savor it in all its glory.</p>
+                           <a href="mangomastani.html">
+                            <button>see more</button>
+                        </a> 
+                        </div>
+                    </div>
+
+                    <div class="crd">
+                        <div class="card">
+                            <img src="C:\Users\Payal\Downloads\triple-chocolate-cake-4.jpg" alt="" height="300px" width="300px">
+                            <h2>DEVIL'S FOOD CHOCOLATE CAKE</h2>
+                            <p>This pictured cake is a combination of chocolate buttercream and mock-devil’s food cake. You know the Devil’s Food chocolate cake you get at a restaurant or even from a box mix? This is that exact cake, only completely homemade. Notice the reddish tint? That’s where the name Devil’s Food comes from. </p>
+                            <a href="deivlcake.html">
+                                <button>SEE MORE</button>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <img src="C:\Users\Payal\Downloads\image.webp" alt="" height="300px" width="300px">
+                            <h2>CLASSIC BRAN MUFFINS</h2>
+                            <p>These bran muffins are a delicious source of fiber! My family has them almost every morning. They're great! You may substitute dates for the raisins if you wish.These healthy bran muffins are not only great for digestion, they're a delicious way to start your day.</p>
+                            <a href="clasicmuffins.html">
+                                <button>SEE MORE</button>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <img src="C:\Users\Payal\Downloads\istockphoto-1386720492-612x612.jpg" alt=""  height="300px" width="300px">
+                            <h2>DAHI VADA </h2>
+                            <p> an extremely popular and tasty street food snack recipe made with urad dal fritters and dipped soaked in spiced creamy yoghurt sauce. it is one of the popular street food of north india, if not of whole india and is often served as dessert snack.</p>
+                          <a href="dahivada.html">  <button>SEE MORE</button>
+                            </a>
+                        </div>
+                    </div>
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Blogs</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="blog">
+                            <img src="fds (6).jpg" alt="">
+                            <h2>Fact About Indian Food</h2>
+                            <p>ndian cuisine is part of the landscape in most cities across America. Indian dishes aren’t just curries, chutney, and chicken tikka masala, there’s a lot more to Indian food than you ever knew!</p>
+                            <a href="https://www.littleindiaofdenver.com/blog/7-facts-you-never-knew-about-indian-food/">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="fds (4).jpg" alt="">
+                            <h2>Diffrent Type of Burger</h2>
+                            <p> The burger is one of the most satisfying yet simple foods, an icon of modern society. Empires have been built on this beef patty sandwich. Whether you like a gourmet burger of Angus beef on a brioche bun, a veggie burger, or something spicier with hot sauce, there are so many ways to create the burger you want</p>
+                            <a href="https://www.finedininglovers.com/article/burger-types-famous-to-make">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="fds (7).jpg" alt="">
+                            <h2>Delicious Checken Recipes</h2>
+                            <p>Consider for a moment if the dreaded dinnertime conversation went like this: “what’s for dinner?” “Chicken breast.” “Chicken breasts for dinner? YAY!!!”. Well, we’ve rounded up our 60 best chicken breast recipes, all of which are pretty easy, and super delicious. Let’s dive in! Here are 60—yeah, that’s 6-0 easy chicken recipes—ideas for how to cook chicken breast that are anything but boring.</p>
+                            <a href="https://themodernproper.com/60-best-chicken-breast-recipes">Read More</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Customer Review -->
+
+
+        <div class="head">
+            <h1>Customer <span>Review</span></h1>
+        </div>
+        <div class="review">
+
+            <div class="customer">
+                <img src="C:\Users\Payal\Downloads\man1.webp" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>The Recipes are very good.Their content is very useful.</p>
+                
+            </div>
+            <div class="customer">
+                <img src="C:\Users\Payal\Downloads\man2.jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p> visit this website if you want to make delicious dishes. </p>
+                
+            </div>
+            <div class="customer">
+                <img src="C:\Users\Payal\Downloads\man3.jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>The steps of recipes are written very well . you can easily understand those recipes</p>
+                
+            </div>
+
+            
+        </div>
+        <div class="btn">
+            <button onclick="pre()">Prev</button>
+            <button onclick="next()">Next</button>
+
+        </div>
+
+        <div class="footer">
+            <div class="txt">
+               <a href="aboutus.html"><h2>About US</h2></a>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <a href="aboutus.html"><h2>About US</h2></a>
+                <p>Product</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <a href="aboutus.html"><h2>About US</h2></a>
+                <p>Near</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <a href="aboutus.html"><h2>About US</h2></a>
+                <p>Websites</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+        </div>
+    </div>
+    <script src="Foodweb.js"></script> 
+</body>
+</html>
